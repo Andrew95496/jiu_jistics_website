@@ -70,3 +70,11 @@ a:hover{
 .date{
     color: var(--date-color);
 }
+
+/* Socials Styles */
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
