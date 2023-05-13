@@ -1,0 +1,72 @@
+:root{
+    --background-color: #E4DFDA;
+    --date-color: #D4B483; 
+    --text-color: #C1666B;
+    --link-color: #48A9A6;
+    --link-hover-color: #4357AD;
+}
+
+/* Full Page Styles */
+body{
+    background-color: var(--background-color);
+    color: var(--text-color)
+}
+
+/*  Nav Styles */
+.nav{
+    float: right;
+    transition: 0.5s;
+}
+
+.nav-logo{
+    font-size: 2rem;
+}
+
+/* Link Styles */
+a{
+    text-decoration: none;
+    color: var(--link-color);
+    margin: 1.5rem 2rem;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: var(--link-hover-color);
+}
+
+/* Page Styles */
+.headers{
+    text-align: center;
+}
+
+.h1-header{
+    font-size: 5rem;
+}
+
+.h2-headers{
+    font-size: 2.5rem;
+}
+
+.app-text{
+    margin: 0 15rem;
+}
+
+/* Updates Styles */
+
+.update-headers{
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+
+.update-i{
+    font-size: 1.5rem;
+}
+
+.update-text{
+    margin-left: 5rem;
+    font-size: 1.2rem;
+}
+
+.date{
+    color: var(--date-color);
+}
