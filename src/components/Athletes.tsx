@@ -2,6 +2,11 @@
 import '../server'
 
 export default function Athletes() {
+
+  // type Athlete = {
+  //   name: string;
+    
+  // }
   
   return (
     <div>
